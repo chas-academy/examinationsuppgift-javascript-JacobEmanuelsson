@@ -31,7 +31,7 @@ function addToIncome() {
     if (desc == "" || addAmount == "") {
         return;
     } else if (isNaN(Number(addAmount))) {
-        throw new TypeError("Input must be a number");
+        return;
     }
 
 
